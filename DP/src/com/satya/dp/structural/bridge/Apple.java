@@ -1,4 +1,4 @@
-package com.satya.dp.structural.adaptor;
+package com.satya.dp.structural.bridge;
 
 public class Apple implements AppleCharger {
 
