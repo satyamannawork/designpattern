@@ -1,18 +1,16 @@
 package com.satya.dp.structural.bridge;
 
-public class Adaptor implements SamsungCharger {
+public abstract class Adaptor  {
 
-	AppleCharger applecharger ;
-	Adaptor(AppleCharger applecharger){
-		this.applecharger = applecharger;
+	SamsungCharger samsungCharge ; 
+	AppleCharger appleCharger ; 
+	
+	Adaptor(SamsungCharger samsungCharge,AppleCharger appleCharger) {
+		this.samsungCharge   =  samsungCharge ; 
+		this.appleCharger = appleCharger ; 
 	}
 	
-	@Override
-	public void getCharged() {
-		this.applecharger.getCharged();
-		
-	}
-
+	abstract  void  getCharged();
 	
 
 }
