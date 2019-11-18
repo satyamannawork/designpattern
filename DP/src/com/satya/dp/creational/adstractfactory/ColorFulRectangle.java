@@ -3,7 +3,7 @@ package com.satya.dp.creational.adstractfactory;
 public class ColorFulRectangle implements Shape {
 	public ColorFulRectangle() {
 		// TODO Auto-generated constructor stub
-		System.out.println("ColurFul Rectangle");
+		System.out.println("ColurFul Rectangle has been called");
 	}
 
 	@Override

@@ -3,7 +3,7 @@ package com.satya.dp.creational.adstractfactory;
 public class ColorFulCircle implements Shape{
 	public ColorFulCircle() {
 		// TODO Auto-generated constructor stub
-		System.out.println("Colorfulcircle");
+		System.out.println("Colorful circle has been called ");
 	}
 
 	@Override

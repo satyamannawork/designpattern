@@ -1,16 +1,16 @@
 package com.satya.dp.creational.adstractfactory;
 
-public class Circle implements Shape {
+public class NormalRectangle implements Shape {
 
-	public Circle() {
+	 public NormalRectangle() {
 		// TODO Auto-generated constructor stub
-		System.out.println("Circle has been entered");
-	} 
+			System.out.println("Rectangle has been entered");
+	}
 	@Override
 	public Object getShape() {
 		// TODO Auto-generated method stub
-		
-		return new Circle();
+	
+		return new NormalRectangle();
 	}
 
 }

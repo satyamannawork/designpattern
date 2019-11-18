@@ -1,15 +1,17 @@
 package com.satya.dp.structural.adaptor;
 
-public abstract class Adaptor  {
+public  class Adaptor  {
 
 	SamsungCharger samsungCharger;
 	AppleCharger applecharger ;
-	Adaptor(AppleCharger applecharger){
-		this.applecharger = applecharger;
+	Adaptor(){
+		this.applecharger = new  Apple();
 	}
 	
 	
-	abstract public void getCharged();
+	 public void getCharged() {
+		 this.applecharger.getCharged();
+	}
 
 	
 
